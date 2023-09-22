@@ -3,15 +3,18 @@
     font-family: 'Mooli', sans-serif;
 }
 
+/* Styles of header section */
+
 header {
     background-color: antiquewhite;
-    padding: 50px 230px;
+    padding: 50px 230px 0;
 }
 
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 100px;
 }
 
 nav ul {
@@ -23,4 +26,37 @@ nav ul {
 .title {
     font-size: 40px;
     font-weight: bold;
+}
+
+.banner-content {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.headline {
+    font-size: 50px;
+    font-weight: bolder;
+    margin-bottom: 30px;
+}
+
+.description {
+    color: #757575;
+    font-size: small;
+    margin-bottom: 30px;
+}
+
+.btn-primary {
+    background-color: orange;
+    color: #ffffff;
+    border: 0;
+    border-radius: 5px;
+    padding: 18px 30px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.banner img {
+    width: 100%;
+    margin: 30px 0;
 }
