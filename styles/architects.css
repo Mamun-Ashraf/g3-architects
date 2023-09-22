@@ -140,3 +140,27 @@ section {
 .experience .headline {
     margin-bottom: 0;
 }
+
+/* Styles of some fact section */
+
+.fact-headings .title {
+    margin-bottom: 30px;
+
+}
+
+.fact-cards {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+
+.fact-content {
+    width: 200px;
+    height: 200px;
+    border: 1px solid orange;
+    border-radius: 5px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
