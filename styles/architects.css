@@ -164,3 +164,31 @@ section {
     justify-content: center;
     align-items: center;
 }
+
+/* Styles of our sponsors section */
+
+.sponsors {
+    margin-top: 100px;
+}
+
+.sponsors-content {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.sponsors-picture {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* styles of footer section */
+
+footer {
+    background-color: antiquewhite;
+    border-radius: 5px;
+    margin: 50px 230px 200px;
+    padding: 20px 0;
+}
