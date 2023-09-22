@@ -189,6 +189,7 @@ section {
 footer {
     background-color: antiquewhite;
     border-radius: 5px;
-    margin: 50px 230px 200px;
-    padding: 20px 0;
+    text-align: center;
+    margin: 100px 230px 200px;
+    padding: 30px 0;
 }
